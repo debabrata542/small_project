@@ -1,26 +1,96 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class ImageCard extends React.Component {
+  render() {
+    return (
+      <div style={{ "display": "flex" }}>
+        <div className="column is-4">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-4by3">
+                <img alt="hii" src="https://images.unsplash.com/photo-1541890289-b86df5bafd81?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=416&h=312&q=60" />
+              </figure>
+            </div>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">Hiiiiiii</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="column is-4">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-4by3">
+                <img alt="hii" src="https://images.unsplash.com/photo-1541890289-b86df5bafd81?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=416&h=312&q=60" />
+              </figure>
+            </div>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">Hiiiiiii</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="column is-4">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-4by3">
+                <img alt="hii" src="https://images.unsplash.com/photo-1541890289-b86df5bafd81?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=416&h=312&q=60" />
+              </figure>
+            </div>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">Hiiiiiii</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="column is-4">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-4by3">
+                <img alt="hii" src="https://images.unsplash.com/photo-1541890289-b86df5bafd81?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=416&h=312&q=60" />
+              </figure>
+            </div>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">Hiiiiiii</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="column is-4">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-4by3">
+                <img alt="hii" src="https://images.unsplash.com/photo-1541890289-b86df5bafd81?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=416&h=312&q=60" />
+              </figure>
+            </div>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4">Hiiiiiii</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
-export default App;
+export default ImageCard;
