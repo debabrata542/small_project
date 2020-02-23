@@ -14,7 +14,7 @@ class ImageCard extends React.Component {
             <div className="card-content">
               <div className="media">
                 <div className="media-content">
-                  <p className="title is-4">Hiiiiiii</p>
+                  <p className="title is-4">H</p>
                 </div>
               </div>
             </div>
